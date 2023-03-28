@@ -18,7 +18,7 @@ public class PrivacyModel : PageModel
     {
         Data = new Form();
         Data.Mail = "test@gmail.com";
-        Data.Passwd = "1234";
+        Data.Passwd = "12345";
     }
 
     public IActionResult OnPost(){
